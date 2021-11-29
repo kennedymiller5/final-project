@@ -48,7 +48,6 @@ a:visited {
 }
 
 .image-wrapper.right p.caption {
-    float: right;
     padding: 15px;
     max-width: 300px;
 }
@@ -65,6 +64,11 @@ a:visited {
     margin: 35px 0;
 }
 
+.image-wrapper.right {
+    display: flex;
+    float: right;
+}
+
 p.footer {
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -73,6 +77,5 @@ p.footer {
 .right img {
     width: 100%;
     max-width: 300px;
-    float: right;
     padding: 15px;
 }
