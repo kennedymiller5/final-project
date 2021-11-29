@@ -44,12 +44,13 @@ a:visited {
     margin-top: 0;
     color: grey;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .image-wrapper.right p.caption {
     padding: 15px;
     max-width: 300px;
+    padding: 2px;
 }
 
 .image-wrapper img{
