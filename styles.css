@@ -1,1 +1,47 @@
+/*font-family: 'Antic', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;*/
 
+#content {
+    margin: 0 auto;
+    width: 65%;
+}
+
+h3, h4, h5 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h4, h5 {
+    font-style: italic;
+    font-weight: 14px;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.topper-image {
+    width: 100%;
+}
+
+.image-wrapper p.caption {
+    margin-top: 0;
+    color: grey;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.image-wrapper img{
+    width:100%;
+}
+
+.image-wrapper.topper-image {
+    margin: 0;
+}
+
+.image-wrapper {
+    margin: 35px 0;
+}
+
+p.footer {
+    text-align: center;
+}
