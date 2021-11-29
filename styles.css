@@ -65,8 +65,8 @@ a:visited {
 }
 
 .image-wrapper.right {
-    display: flex;
     float: right;
+    margin: 2px;
 }
 
 p.footer {
