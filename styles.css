@@ -1,5 +1,4 @@
-/*font-family: 'Antic', sans-serif;
-font-family: 'Lora', serif;
+/*font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;*/
 
 #content {
@@ -7,17 +6,34 @@ font-family: 'Montserrat', sans-serif;*/
     width: 65%;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+
 h3, h4, h5 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-h4, h5 {
-    font-style: italic;
-    font-weight: 14px;
+h4 {
+    font-style: bold;
+    font-weight: 20px;
+    margin: 5px auto;
+}
+
+h5 {
+    font-weight: 16px;
+    margin: 5px auto;
+    margin-bottom: 30px;
 }
 
 body {
     font-family: 'Lora', serif;
+    background-color: #fff8f9;
+}
+
+a:visited {
+    color: #B34E94;
 }
 
 .topper-image {
@@ -28,6 +44,13 @@ body {
     margin-top: 0;
     color: grey;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.image-wrapper.right p.caption {
+    float: right;
+    padding: 15px;
+    max-width: 300px;
 }
 
 .image-wrapper img{
@@ -44,4 +67,12 @@ body {
 
 p.footer {
     text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.right img {
+    width: 100%;
+    max-width: 300px;
+    float: right;
+    padding: 15px;
 }
